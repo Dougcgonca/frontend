@@ -1,0 +1,31 @@
+.country-top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  margin-left: 10px;
+  width: 300px;
+  height: auto;
+}
+
+.population-chart {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+.population-chart canvas {
+  height: 400px !important;
+}
+
+.btn-go-back {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}

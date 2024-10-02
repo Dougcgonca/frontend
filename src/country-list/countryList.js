@@ -22,7 +22,15 @@ export default function CountryList() {
 
   return (
     <div>
-      {!listCountry && <p>Loadig data...</p>}
+      <h2>Country List</h2>
+      <p>
+        Here, you can get a lot of data of countries you are interested in it.
+      </p>
+      <p>
+        Please, select the country that you want to see informations, and enjoy!
+        :)
+      </p>
+      {!listCountry && <p>Loading data...</p>}
       <div className="container-father">
         {listCountry.map((value, index) => (
           <div key={index} className="country-card">

@@ -4,34 +4,22 @@
   justify-content: space-around;
 }
 
-.country-card {
+.country-card-border {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 200px;
+  height: 150px;
   width: 15%;
   border: none;
   margin-bottom: 20px;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px,
     rgba(0, 0, 0, 0.22) 0px 15px 12px;
-  background-color: #fdfad9;
+  background-color: #7189d8;
 }
 
-h2 {
-  text-align: center;
-}
-p {
-  text-align: center;
-}
-
-button {
-  cursor: pointer;
-  font-size: 20px;
-  border-radius: 10px;
-  border: none;
-  background-color: #8eaccd;
-  color: antiquewhite;
-  padding: 5px;
-  max-width: 75%;
+.country-border-button {
+  background-color: rgb(255, 255, 255);
+  color: rgb(136, 134, 134);
+  font-weight: 700;
 }
