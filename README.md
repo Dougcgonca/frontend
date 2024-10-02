@@ -19,17 +19,19 @@ This project is a React application that provides information about countries, i
 
 To get started, first clone the repository using the following command:
 
-``bash
+```bash
 git clone <https://github.com/Dougcgonca/frontend-develops-today>
 cd frontend
+```
 
 ## Install dependencies
 
 npm install
 
 ## Running the apliccation
-
+```bash
 npm start
+```
 
 The app will run on http://localhost:3001.
 
